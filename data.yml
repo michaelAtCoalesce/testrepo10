@@ -19,6 +19,26 @@ environments:
         locationName: SRC
         schema: TPCH_SF1
     name: DEV
+  PROD:
+    createdAt:
+      nanoseconds: 239000000
+      seconds: 1656346572
+    createdBy: XsjlhDtyCJaT88FVAeRO2FrTcQJ2
+    description: ""
+    devEnv: false
+    id: 2
+    mappings:
+      "1":
+        database: HH_DB
+        id: 1
+        locationName: F
+        schema: HH_SCHEMA
+      "2":
+        database: SNOWFLAKE_SAMPLE_DATA
+        id: 2
+        locationName: SRC
+        schema: TPCH_SF1
+    name: PROD
 jobs: {}
 locations:
   F:
