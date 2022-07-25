@@ -1,60 +1,25 @@
-environments:
-  DEV:
-    createdAt:
-      nanoseconds: 815000000
-      seconds: 1656346047
-    createdBy: stOIiKeVoB0TJaYsJZeV
-    description: ""
-    devEnv: true
-    id: 1
-    mappings:
-      "1":
-        database: HH_DB
-        id: 1
-        locationName: F
-        schema: HH_SCHEMA
-      "2":
-        database: SNOWFLAKE_SAMPLE_DATA
-        id: 2
-        locationName: SRC
-        schema: TPCH_SF1
-    name: DEV
-  PROD:
-    createdAt:
-      nanoseconds: 239000000
-      seconds: 1656346572
-    createdBy: XsjlhDtyCJaT88FVAeRO2FrTcQJ2
-    description: ""
-    devEnv: false
-    id: 2
-    mappings:
-      "1":
-        database: HH_DB
-        id: 1
-        locationName: F
-        schema: HH_SCHEMA
-      "2":
-        database: SNOWFLAKE_SAMPLE_DATA
-        id: 2
-        locationName: SRC
-        schema: TPCH_SF1
-    name: PROD
+defaultStorageMapping: F
 jobs: {}
 locations:
   F:
-    default: true
-    id: 1
-    locationName: F
+    mappingDefinitions:
+      "2":
+        database: HH_DB
+        schema: HH_SCHEMA
   SRC:
-    default: false
-    id: 2
-    locationName: SRC
+    mappingDefinitions:
+      "2":
+        database: SNOWFLAKE_SAMPLE_DATA
+        schema: TPCH_SF1
 macros: {}
+packages: {}
+projects: {}
 stepTypes:
   StepType-Dimension:
     id: Dimension
     isDisabled: false
     metadata:
+      defaultStorageLocation: null
       error: null
       nodeMetadataSpec: |-
         capitalized: Dimension
@@ -501,6 +466,7 @@ stepTypes:
     id: Fact
     isDisabled: false
     metadata:
+      defaultStorageLocation: null
       error: null
       nodeMetadataSpec: |
         capitalized: Fact
@@ -904,6 +870,7 @@ stepTypes:
     id: Hub
     isDisabled: false
     metadata:
+      defaultStorageLocation: null
       error: null
       nodeMetadataSpec: |-
         capitalized: Hub
@@ -1149,6 +1116,7 @@ stepTypes:
     id: Link
     isDisabled: false
     metadata:
+      defaultStorageLocation: null
       error: null
       nodeMetadataSpec: |-
         capitalized: Link
@@ -1393,6 +1361,7 @@ stepTypes:
     id: Satellite
     isDisabled: false
     metadata:
+      defaultStorageLocation: null
       error: null
       nodeMetadataSpec: |-
         capitalized: Satellite
@@ -1639,6 +1608,7 @@ stepTypes:
     id: Source
     isDisabled: false
     metadata:
+      defaultStorageLocation: null
       error: null
       nodeMetadataSpec: |-
         capitalized: Source
@@ -1660,6 +1630,7 @@ stepTypes:
     id: Stage
     isDisabled: false
     metadata:
+      defaultStorageLocation: null
       error: null
       nodeMetadataSpec: |
         capitalized: Stage
@@ -1864,6 +1835,7 @@ stepTypes:
     id: View
     isDisabled: true
     metadata:
+      defaultStorageLocation: null
       error: null
       nodeMetadataSpec: |
         capitalized: View
@@ -1943,6 +1915,7 @@ stepTypes:
     id: persistentStage
     isDisabled: false
     metadata:
+      defaultStorageLocation: null
       error: null
       nodeMetadataSpec: |
         capitalized: Persistent Stage
@@ -2408,3 +2381,4 @@ stepTypes:
     name: Persistent Stage
     version: 1
 subgraphs: {}
+version: 1
