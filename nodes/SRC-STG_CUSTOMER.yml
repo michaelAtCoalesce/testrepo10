@@ -14,7 +14,7 @@ steps:
       isDataVault: false
       isMultisource: false
       locationID: 1
-      locationName: F
+      locationName: SRC
       materializationType: table
       metadata:
         appliedNodeTests: []
@@ -31,7 +31,7 @@ steps:
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 1
-                    stepCounter: 1
+                    stepCounter: "1"
                 transform: ""
           - columnReference:
               columnCounter: 10
@@ -45,7 +45,7 @@ steps:
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 2
-                    stepCounter: 1
+                    stepCounter: "1"
                 transform: ""
           - columnReference:
               columnCounter: 11
@@ -59,7 +59,7 @@ steps:
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 3
-                    stepCounter: 1
+                    stepCounter: "1"
                 transform: ""
           - columnReference:
               columnCounter: 12
@@ -73,7 +73,7 @@ steps:
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 4
-                    stepCounter: 1
+                    stepCounter: "1"
                 transform: ""
           - columnReference:
               columnCounter: 13
@@ -87,7 +87,7 @@ steps:
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 5
-                    stepCounter: 1
+                    stepCounter: "1"
                 transform: ""
           - columnReference:
               columnCounter: 14
@@ -101,7 +101,7 @@ steps:
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 6
-                    stepCounter: 1
+                    stepCounter: "1"
                 transform: ""
           - columnReference:
               columnCounter: 15
@@ -115,7 +115,7 @@ steps:
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 7
-                    stepCounter: 1
+                    stepCounter: "1"
                 transform: ""
           - columnReference:
               columnCounter: 16
@@ -129,7 +129,7 @@ steps:
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 8
-                    stepCounter: 1
+                    stepCounter: "1"
                 transform: ""
         cteString: ""
         enabledColumnTestIDs: []
