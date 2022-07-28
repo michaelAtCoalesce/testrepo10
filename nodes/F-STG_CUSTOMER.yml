@@ -14,7 +14,7 @@ steps:
       isDataVault: false
       isMultisource: false
       locationID: 1
-      locationName: SRC
+      locationName: F
       materializationType: table
       metadata:
         appliedNodeTests: []
