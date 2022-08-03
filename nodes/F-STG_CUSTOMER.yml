@@ -32,7 +32,7 @@ steps:
               - columnReferences:
                   - columnCounter: 1
                     stepCounter: "1"
-                transform: "1"
+                transform: "2"
           - columnReference:
               columnCounter: 10
               stepCounter: 2
