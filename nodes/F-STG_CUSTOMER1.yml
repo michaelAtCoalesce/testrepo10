@@ -31,7 +31,7 @@ steps:
               - columnReferences:
                   - columnCounter: 9
                     stepCounter: "2"
-                transform: ""
+                transform: "1"
           - columnReference:
               columnCounter: 2180
               stepCounter: 273
