@@ -30,7 +30,7 @@ steps:
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 9
-                    stepCounter: 2
+                    stepCounter: "2"
                 transform: ""
           - columnReference:
               columnCounter: 2180
@@ -44,7 +44,7 @@ steps:
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 10
-                    stepCounter: 2
+                    stepCounter: "2"
                 transform: ""
           - columnReference:
               columnCounter: 2181
@@ -58,7 +58,7 @@ steps:
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 11
-                    stepCounter: 2
+                    stepCounter: "2"
                 transform: ""
           - columnReference:
               columnCounter: 2182
@@ -72,7 +72,7 @@ steps:
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 12
-                    stepCounter: 2
+                    stepCounter: "2"
                 transform: ""
           - columnReference:
               columnCounter: 2183
@@ -86,7 +86,7 @@ steps:
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 13
-                    stepCounter: 2
+                    stepCounter: "2"
                 transform: ""
           - columnReference:
               columnCounter: 2184
@@ -100,7 +100,7 @@ steps:
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 14
-                    stepCounter: 2
+                    stepCounter: "2"
                 transform: ""
           - columnReference:
               columnCounter: 2185
@@ -114,7 +114,7 @@ steps:
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 15
-                    stepCounter: 2
+                    stepCounter: "2"
                 transform: ""
           - columnReference:
               columnCounter: 2186
@@ -128,7 +128,7 @@ steps:
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 16
-                    stepCounter: 2
+                    stepCounter: "2"
                 transform: ""
         cteString: ""
         enabledColumnTestIDs: []
