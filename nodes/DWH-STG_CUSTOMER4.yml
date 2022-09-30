@@ -1,5 +1,5 @@
 steps:
-  STG_CUSTOMER1-273:
+  STG_CUSTOMER4-22457:
     operation:
       config:
         insertStrategy: INSERT
@@ -9,19 +9,19 @@ steps:
         truncateBefore: true
       database: ""
       dependencies: []
-      deployEnabled: false
+      deployEnabled: true
       description: ""
       isDataVault: false
       isMultisource: false
       locationID: ""
-      locationName: F
+      locationName: DWH
       materializationType: table
       metadata:
         appliedNodeTests: []
         columns:
           - columnReference:
-              columnCounter: 2179
-              stepCounter: 273
+              columnCounter: 31217
+              stepCounter: "22457"
             dataType: NUMBER(38,0)
             description: ""
             hashColumns: []
@@ -34,8 +34,8 @@ steps:
                     stepCounter: "2"
                 transform: ""
           - columnReference:
-              columnCounter: 2180
-              stepCounter: 273
+              columnCounter: 31218
+              stepCounter: "22457"
             dataType: VARCHAR(25)
             description: ""
             hashColumns: []
@@ -48,8 +48,8 @@ steps:
                     stepCounter: "2"
                 transform: ""
           - columnReference:
-              columnCounter: 2181
-              stepCounter: 273
+              columnCounter: 31219
+              stepCounter: "22457"
             dataType: VARCHAR(40)
             description: ""
             hashColumns: []
@@ -62,8 +62,8 @@ steps:
                     stepCounter: "2"
                 transform: ""
           - columnReference:
-              columnCounter: 2182
-              stepCounter: 273
+              columnCounter: 31220
+              stepCounter: "22457"
             dataType: NUMBER(38,0)
             description: ""
             hashColumns: []
@@ -76,8 +76,8 @@ steps:
                     stepCounter: "2"
                 transform: ""
           - columnReference:
-              columnCounter: 2183
-              stepCounter: 273
+              columnCounter: 31221
+              stepCounter: "22457"
             dataType: VARCHAR(15)
             description: ""
             hashColumns: []
@@ -90,8 +90,8 @@ steps:
                     stepCounter: "2"
                 transform: ""
           - columnReference:
-              columnCounter: 2184
-              stepCounter: 273
+              columnCounter: 31222
+              stepCounter: "22457"
             dataType: NUMBER(12,2)
             description: ""
             hashColumns: []
@@ -104,8 +104,8 @@ steps:
                     stepCounter: "2"
                 transform: ""
           - columnReference:
-              columnCounter: 2185
-              stepCounter: 273
+              columnCounter: 31223
+              stepCounter: "22457"
             dataType: VARCHAR(10)
             description: ""
             hashColumns: []
@@ -118,8 +118,8 @@ steps:
                     stepCounter: "2"
                 transform: ""
           - columnReference:
-              columnCounter: 2186
-              stepCounter: 273
+              columnCounter: 31224
+              stepCounter: "22457"
             dataType: VARCHAR(117)
             description: ""
             hashColumns: []
@@ -141,11 +141,11 @@ steps:
                 nodeName: STG_CUSTOMER
             join:
               joinCondition: FROM {{ ref('F', 'STG_CUSTOMER') }} "STG_CUSTOMER"
-            name: STG_CUSTOMER1
+            name: STG_CUSTOMER4
             noLinkRefs: []
-      name: STG_CUSTOMER1
+      name: STG_CUSTOMER4
       overrideSQL: false
       schema: ""
       sqlType: Stage
       type: sql
-    stepCounter: "273"
+    stepCounter: "22457"
