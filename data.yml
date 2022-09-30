@@ -15,6 +15,9 @@ locations:
       "64":
         database: ""
         schema: ""
+      "66":
+        database: MICHAELXU_WH
+        schema: DEV_STG
   F:
     mappingDefinitions:
       "2":
@@ -23,6 +26,9 @@ locations:
       "59":
         database: MICHAELXU_WH
         schema: MICHAELXU_SCHEMA
+      "66":
+        database: HH_DB
+        schema: HH_SCHEMA
   FFFF:
     mappingDefinitions:
       "48":
@@ -38,14 +44,17 @@ locations:
         database: ""
         schema: ""
       "66":
-        database: ""
-        schema: ""
+        database: MICHAELXU_WH
+        schema: DEV_TEST
   SRC:
     mappingDefinitions:
       "2":
         database: SNOWFLAKE_SAMPLE_DATA
         schema: TPCH_SF1
       "59":
+        database: SNOWFLAKE_SAMPLE_DATA
+        schema: TPCH_SF1
+      "66":
         database: SNOWFLAKE_SAMPLE_DATA
         schema: TPCH_SF1
 macros: {}
