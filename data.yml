@@ -45,7 +45,7 @@ locations:
         schema: ""
       "66":
         database: MICHAELXU_WH
-        schema: MICHAELXU_SCHEMA
+        schema: DEV_STG
   SRC:
     mappingDefinitions:
       "2":
