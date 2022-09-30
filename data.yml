@@ -7,8 +7,8 @@ locations:
         database: ""
         schema: ""
       "59":
-        database: ""
-        schema: ""
+        database: HH_DB
+        schema: HH_SCHEMA
       "62":
         database: ""
         schema: ""
@@ -23,6 +23,23 @@ locations:
       "59":
         database: MICHAELXU_WH
         schema: MICHAELXU_SCHEMA
+  FFFF:
+    mappingDefinitions:
+      "48":
+        database: ""
+        schema: ""
+      "59":
+        database: HH_DB
+        schema: HH_SCHEMA
+      "62":
+        database: ""
+        schema: ""
+      "64":
+        database: ""
+        schema: ""
+      "66":
+        database: ""
+        schema: ""
   SRC:
     mappingDefinitions:
       "2":
